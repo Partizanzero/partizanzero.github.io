@@ -35,7 +35,7 @@ google_analytics_tracking_id:
 
 nav:
   - title: "Home"
-    url:   "/partizanzero/"
+    url:   "partizanzero.github.io"
   - title: "Github"
     url:   "https://partizanzero.github.io"
 
