@@ -27,19 +27,31 @@ google_analytics_tracking_id:
 
 
 # Site navigation
+#nav:
+#  - title: "Home"
+#    url:   "/crossing-jekyll/"
+#  - title: "Github"
+#    url:   "https://github.com/barepants/crossing-jekyll"
+
 nav:
   - title: "Home"
-    url:   "/crossing-jekyll/"
+    url:   "/partizanzero.github.io/"
   - title: "Github"
-    url:   "https://github.com/barepants/crossing-jekyll"
+    url:   "https://partizanzero.github.io"
 
 
 # The links in the site footer
+#footer_links:
+#  - title: "RSS"
+#    url:   "/crossing-jekyll/feed.xml"
+#  - title: "GitHub"
+#    url:   "https://github.com/barepants/crossing-jekyll"
+
 footer_links:
   - title: "RSS"
-    url:   "/crossing-jekyll/feed.xml"
+    url:   "/partizanzero.github.io/feed.xml"
   - title: "GitHub"
-    url:   "https://github.com/barepants/crossing-jekyll"
+    url:   "https://partizanzero.github.io"
 
 
 # Author information
