@@ -13,7 +13,7 @@ url: "https://partizanzero.github.io"
 
 # The subpath of your site, e.g. /blog, for generating urls
 #baseurl: "/crossing-jekyll"
-baseurl: "/partizanzero"
+baseurl: "/partizanzero.github.io"
 
 # The site cover image on the home page
 #image: /crossing-jekyll/images/site-image.jpg
