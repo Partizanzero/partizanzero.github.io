@@ -13,7 +13,7 @@ url: "https://partizanzero.github.io"
 
 # The subpath of your site, e.g. /blog, for generating urls
 #baseurl: "/crossing-jekyll"
-baseurl: "/partizanzero.github.io"
+baseurl: "/partizanzero/"
 
 # The site cover image on the home page
 #image: /crossing-jekyll/images/site-image.jpg
@@ -35,7 +35,7 @@ google_analytics_tracking_id:
 
 nav:
   - title: "Home"
-    url:   "/partizanzero.github.io/"
+    url:   "/partizanzero/"
   - title: "Github"
     url:   "https://partizanzero.github.io"
 
@@ -49,7 +49,7 @@ nav:
 
 footer_links:
   - title: "RSS"
-    url:   "/partizanzero.github.io/feed.xml"
+    url:   "/partizanzero/feed.xml"
   - title: "GitHub"
     url:   "https://partizanzero.github.io"
 
