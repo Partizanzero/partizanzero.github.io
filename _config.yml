@@ -41,7 +41,7 @@ nav:
 
 
 # The links in the site footer
-#footer_links:
+#footer_links: 
 #  - title: "RSS"
 #    url:   "/crossing-jekyll/feed.xml"
 #  - title: "GitHub"
