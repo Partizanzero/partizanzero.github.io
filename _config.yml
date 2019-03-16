@@ -37,7 +37,7 @@ nav:
   - title: "Home" 
     url:   "/partizanzero.github.io/" 
   - title: "About"
-    url:   "/partizanzero.github.io/about.html"
+    url:   "https://partizanzero.github.io/about.html"
 
 # The links in the site footer
 #footer_links: 
