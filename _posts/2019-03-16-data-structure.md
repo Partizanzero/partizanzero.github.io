@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "data structure"
-author: 
-categories: 
+title:  "Data Structure"
+date:   2019-03-16 15:57:16 +0400
+categories: jekyll update
 ---
 
 Что такое структуры данных?
