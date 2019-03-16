@@ -3,6 +3,7 @@ layout: post
 title:  "Cтруктуры данных"
 date:   2019-03-16 15:57:16 +0400
 categories: Алгоритмы и структуры данных
+
 ---
 ![структуры данных](https://partizanzero.github.io/images/data-structure.png)
 
