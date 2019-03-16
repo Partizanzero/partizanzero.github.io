@@ -37,7 +37,8 @@ nav:
   - title: "Home" 
     url:   "/partizanzero.github.io/" 
   - title: "About"
-    url:   "/partizanzero.github.io/"
+    url:   "/partizanzero.github.io/about.html"
+
 # The links in the site footer
 #footer_links: 
 #  - title: "RSS"
@@ -50,9 +51,6 @@ footer_links:
     url:   "/partizanzero/feed.xml"
   - title: "GitHub"
     url:   "https://partizanzero.github.io"
-  - title: "About"
-    url:   "https://partizanzero.github.io"
-
 # Author information
 authors:
   johndoe:
