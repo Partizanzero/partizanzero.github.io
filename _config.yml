@@ -34,7 +34,7 @@ google_analytics_tracking_id:
 #    url:   "https://github.com/barepants/crossing-jekyll"
 
 nav:
-  - title: "Home"
+  - title: "Home" 
     url:   "/partizanzero.github.io/"
   - title: "Github"
     url:   "https://partizanzero.github.io"
