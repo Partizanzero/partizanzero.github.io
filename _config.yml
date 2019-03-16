@@ -54,7 +54,8 @@ footer_links:
     url:   "/partizanzero/feed.xml"
   - title: "GitHub"
     url:   "https://partizanzero.github.io"
-
+  - title: "About"
+    url:   "https://partizanzero.github.io"
 
 # Author information
 authors:
