@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "8 известных структур данных"
-author: Библиотека программиста
-categories: Алгоритмы и структуры данных
+title:  "data structure"
+author: 
+categories: 
 ---
 
 Что такое структуры данных?
