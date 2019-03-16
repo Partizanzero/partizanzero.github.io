@@ -34,3 +34,5 @@ categories: Алгоритмы и структуры данных
 * Префиксное дерево (Trie)
 * Хэш-Таблица (Hash Table)
 
+
+[источник]: https://vk.com/@proglib-8-izvestnyh-struktur-dannyh-o-kotoryh-sprosyat-na-sobesedov
