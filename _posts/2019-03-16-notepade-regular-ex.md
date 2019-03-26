@@ -5,7 +5,7 @@ date:   2019-03-26 15:57:16 +0400
 categories: Шпаргалки
 
 ---
-![регулярные выражения в notepad++](https://partizanzero.github.io/images/notepad1.jpg)
+![регулярные выражения в notepad++](https://partizanzero.github.io/images/notepad.png)
 
 Шпаргалка, чтоб не тупить при случае.
 
