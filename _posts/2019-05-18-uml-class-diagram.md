@@ -95,6 +95,7 @@ categories: Java
 Стереотип можно установить из контекстного меню для класса.
 
 
+
 Источник: [Источник][источник] 
 
 [источник]: https://flexberry.github.io/ru/gpg_class-diagram.html
