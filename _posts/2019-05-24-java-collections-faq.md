@@ -242,8 +242,7 @@ boolean equals(Object obj) — сравнивает данный объект с
 
 Для каждой коллекции можно реализовать эти два метода, задав конкретный способ сравнения элементов, и определить объект класса SortedMap вторым конструктором. Элементы коллекции будут автоматически отсортированы в заданном порядке.
 
-{% highlight ruby %}
-<code>
+{% highlight %}
  public static void main(String[] args) {
         Comparator comparator = new Comparator<String>() {
             @Override
@@ -270,7 +269,6 @@ boolean equals(Object obj) — сравнивает данный объект с
             }
         });
     }
-</code>
 {% endhighlight %}
 
 ### 20. Дайте определение понятию “итератор”.
