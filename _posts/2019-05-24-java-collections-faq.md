@@ -432,7 +432,7 @@ for(тип итер_пер : коллекция) блок_операторов
 
 И последняя причина — клонирование и сериализация являются очень узкоспецифичными операциями, и реализовывать их нужно только когда это необходимо. Многие классы коллекции реализуют данные интерфейсы, но совершенно незачем закладывать их для всех коллекций вообще. Если вам нужно клонирование и сериализация — просто воспользуйтесь теми классами где она есть, если нет — остальными классами.
 
----
+***
 http://goo.gl/Eq2IOA — Часто задаваемые на собеседованиях вопросы по классам коллекциям в Java (Часть 2) javarush.ru
 
 http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-collection-framework-chast-1 Вопросы и ответы на собеседовании по теме Java Collection Framework. Часть 1.
@@ -440,7 +440,7 @@ http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-
 http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-collection-framework-chast-2 Вопросы и ответы на собеседовании по теме Java Collection Framework. Часть 2.
 
 http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-collection-framework-chast-3 Вопросы и ответы на собеседовании по теме Java Collection Framework. Часть 3.
----
+***
 
 
 [Источник:][http://javastudy.ru/interview/collections/]
