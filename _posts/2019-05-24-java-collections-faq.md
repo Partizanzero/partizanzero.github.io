@@ -244,8 +244,8 @@ boolean equals(Object obj) — сравнивает данный объект с
 
 {% highlight java%}
 
- public static void main(String[] args) {
-        Comparator comparator = new Comparator<String>() {
+ `public static void main(String[] args) {`
+        `Comparator comparator = new Comparator<String>() {`
             @Override
             public int compare(String obj1, String obj2) {
                 if (obj1 == null) {
