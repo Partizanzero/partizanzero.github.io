@@ -7,7 +7,7 @@ categories: Java
 
 Список вопросов и ответов по теме “Коллекции в Java”, используемых на собеседовании.
 
-![структуры данных][https://partizanzero.github.io/images/img_1_1.jpg]
+![структуры данных](https://partizanzero.github.io/images/img_1_1.jpg)
 
 ## Вопросы
 
@@ -73,7 +73,7 @@ categories: Java
 
 ### 4. Какова иерархия коллекций?
 
-![иерархия коллекций][https://partizanzero.github.io/images/CollectionsHierarchy.png]
+![иерархия коллекций](https://partizanzero.github.io/images/CollectionsHierarchy.png)
 
 Здесь следует обратить внимание, что interface Map не входит в иерархию interface Collection.
 
