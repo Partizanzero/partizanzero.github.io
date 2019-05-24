@@ -114,9 +114,9 @@ categories: Java
 
 **Реализации: java.util.ArrayDeque<E>, java.util.LinkedList<E>.**
 
----
+***
 Подробнее: http://www.seostella.com/ru/article/2012/08/09/kollekcii-collections-v-java-queue.html
----
+***
 
 ### 8. Что вы знаете о коллекциях типа Map, в чем их принципиальное отличие?
 
@@ -126,9 +126,9 @@ categories: Java
 
 java.util.SortedMap<K,V> наследует java.util.Map<K,V>. Реализации этого интерфейса обеспечивают хранение элементов множества ключей в порядке возрастания (см. java.util.SortedSet). Реализации: java.util.TreeMap<K,V>.
 
----
+***
 Подробнее: http://developer.alexanderklimov.ru/android/java/map.php
----
+***
 
 ### 9. Назовите основные реализации List, Set, Map.
 
@@ -442,10 +442,9 @@ http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-
 http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-collection-framework-chast-3 Вопросы и ответы на собеседовании по теме Java Collection Framework. Часть 3.
 ***
 
+[Источник]: [источник]
 
-[Источник:][http://javastudy.ru/interview/collections/]
-
-
+[источник]:[http://javastudy.ru/interview/collections/]
 [вопросы-по-всем-темам]: http://javastudy.ru/interview/list-of-question-java-interview/
 
 
