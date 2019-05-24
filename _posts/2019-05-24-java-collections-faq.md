@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title:  "Java — коллекции (Collections). Вопросы и ответы."
 author: javastudy.ru
 categories: Java
