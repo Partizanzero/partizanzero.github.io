@@ -243,9 +243,9 @@ boolean equals(Object obj) — сравнивает данный объект с
 Для каждой коллекции можно реализовать эти два метода, задав конкретный способ сравнения элементов, и определить объект класса SortedMap вторым конструктором. Элементы коллекции будут автоматически отсортированы в заданном порядке.
 
 {% highlight java%}
-
- `public static void main(String[] args) {`
-        `Comparator comparator = new Comparator<String>() {`
+<code>
+ public static void main(String[] args) {
+        Comparator comparator = new Comparator<String>() {
             @Override
             public int compare(String obj1, String obj2) {
                 if (obj1 == null) {
@@ -270,7 +270,7 @@ boolean equals(Object obj) — сравнивает данный объект с
             }
         });
     }
-
+</code>
 {% endhighlightjava %}
 
 ### 20. Дайте определение понятию “итератор”.
