@@ -73,7 +73,7 @@ categories: Java
 
 ### 4. Какова иерархия коллекций?
 
-![иерархия коллекций](https://partizanzero.github.io/images/CollectionsHierarchy.png)
+![иерархия коллекций](https://partizanzero.github.io/images/CollectionsHierarchy.jpg)
 
 Здесь следует обратить внимание, что interface Map не входит в иерархию interface Collection.
 
