@@ -242,8 +242,7 @@ boolean equals(Object obj) — сравнивает данный объект с
 
 Для каждой коллекции можно реализовать эти два метода, задав конкретный способ сравнения элементов, и определить объект класса SortedMap вторым конструктором. Элементы коллекции будут автоматически отсортированы в заданном порядке.
 
-<pre>
-<code>
+<pre><code>
 
  public static void main(String[] args) {
         Comparator comparator = new Comparator<String>() {
@@ -280,15 +279,14 @@ boolean equals(Object obj) — сравнивает данный объект с
 Интерфейс Iterator имеет следующее определение:
 
 
-{% javacode %}
+<pre><code>
 
 public interface Iterator <E>{
     E next();
     boolean hasNext();
     void remove();
 }
-
-{% endjavacode %}
+</code></pre>
 
 
 ### 21. Какую функциональность представляет класс Collections
@@ -301,7 +299,7 @@ public interface Iterator <E>{
 
 Коллекцию, доступную только для чтения можно получить с помощью методов:
 
-{% javacode %}
+<pre><code>
 public static <T> SortedSet<T> unmodifiableSortedSet(SortedSet<T> s) {
         return new UnmodifiableSortedSet<>(s);
     }
@@ -312,7 +310,7 @@ public static <T> List<T> unmodifiableList(List<? extends T> list) {
             new UnmodifiableList<>(list));
 }
 и т.д. для каждого типа (Map, SortedMap и т.п.)
-{% endjavacode %}
+</code></pre>
 
 ### 23. Какие коллекции синхронизированы?
 
@@ -327,15 +325,13 @@ Collections.synchronizedSet(set);
 Collections.synchronizedMap(map);
 Все они принимают коллекцию в качестве параметра, и возвращают потокобезопасную коллекцию с теми же элементами внутри.
 
-{% javacode %}
-
+<pre><code>
 public static <T> Set<T> synchronizedSet(Set<T> s) {
         return new SynchronizedSet<>(s);
     }
  
 и т.д. для каждого типа коллекции
-
-{% endjavacode %}
+</code></pre>
 
 ### 25. Как получить коллекцию только для чтения?
 
@@ -361,11 +357,9 @@ Iterator: hasNext(), next(), remove()
 
 Реализован на основе Iterator.
 
-{% javacode %}
-
+<pre><code>
 for(тип итер_пер : коллекция) блок_операторов
-
-{% endjavacode %}
+</code></pre>}
 
 ### 29. Почему нет метода iterator.add() чтобы добавить элементы в коллекцию?
 
