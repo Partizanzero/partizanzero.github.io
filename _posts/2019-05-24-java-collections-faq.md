@@ -442,7 +442,7 @@ http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-
 http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-collection-framework-chast-3 Вопросы и ответы на собеседовании по теме Java Collection Framework. Часть 3.
 ***
 
-[Источник]: [источник]
+[Источник][источник]
 
 [источник]:[http://javastudy.ru/interview/collections/]
 [вопросы-по-всем-темам]: http://javastudy.ru/interview/list-of-question-java-interview/
