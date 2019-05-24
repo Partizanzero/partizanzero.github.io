@@ -430,7 +430,7 @@ http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-
 [Источник:][javastudy.ru]
 
 
-
-
 [вопросы-по-всем-темам]: http://javastudy.ru/interview/list-of-question-java-interview/
+
+
 
