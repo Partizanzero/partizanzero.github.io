@@ -7,7 +7,7 @@ categories: Java
 
 Список вопросов и ответов по теме “Коллекции в Java”, используемых на собеседовании.
 
-![структуры данных](https://partizanzero.github.io/images/img_1_1.jpg)
+![структуры данных][https://partizanzero.github.io/images/img_1_1.jpg]
 
 ## Вопросы
 
@@ -73,7 +73,7 @@ categories: Java
 
 ### 4. Какова иерархия коллекций?
 
-![иерархия коллекций](https://partizanzero.github.io/images/CollectionsHierarchy.png)
+![иерархия коллекций][https://partizanzero.github.io/images/CollectionsHierarchy.png]
 
 Здесь следует обратить внимание, что interface Map не входит в иерархию interface Collection.
 
@@ -134,7 +134,7 @@ java.util.SortedMap<K,V> наследует java.util.Map<K,V>. Реализац
 
 ### 9. Назовите основные реализации List, Set, Map.
 
-![реализации List, Set, Map](https://partizanzero.github.io/images/implementation_list_set_map.png)
+![реализации List, Set, Map][https://partizanzero.github.io/images/implementation_list_set_map.png]
 
 ### 10. Какие реализации SortedSet вы знаете и в чем их особенность?
 
@@ -150,17 +150,19 @@ java.util.SortedSet<E> наследует java.util.Set<E>. Реализации
 
 ArrayList реализован внутри в виде обычного массива. Поэтому при вставке элемента в середину, приходится сначала сдвигать на один все элементы после него, а уже затем в освободившееся место вставлять новый элемент. Зато в нем быстро реализованы взятие и изменение элемента – операции get, set, так как в них мы просто обращаемся к соответствующему элементу массива.
 
-![реализации List, Set, Map](https://partizanzero.github.io/images/ArrayListAndLinkedList.gif)
+![реализации List, Set, Map][https://partizanzero.github.io/images/ArrayListAndLinkedList.gif]
 
 LinkedList реализован внутри по-другому. Он реализован в виде связного списка: набора отдельных элементов, каждый из которых хранит ссылку на следующий и предыдущий элементы. Чтобы вставить элемент в середину такого списка, достаточно поменять ссылки его будущих соседей. А вот чтобы получить элемент с номером 130, нужно пройтись последовательно по всем объектам от 0 до 130. Другими словами операции set и get тут реализованы очень медленно. Посмотри на таблицу:
 
-![LinkedList](https://partizanzero.github.io/images/linked_list.png)
+![LinkedList][https://partizanzero.github.io/images/linked_list.png]
 
 Если необходимо вставлять (или удалять) в середину коллекции много элементов, то лучше использовать LinkedList. Во всех остальных случаях – ArrayList.
 
 LinkedList требует больше памяти для хранения такого же количества элементов, потому что кроме самого элемента хранятся еще указатели на следующий и предыдущий элементы списка, тогда как в ArrayList элементы просто идут по порядку
 
+***
 Структуры данных в картинках. LinkedList: http://habrahabr.ru/post/127864/
+***
 
 ### 13. В каких случаях разумно использовать массив, а не ArrayList?
 
@@ -231,7 +233,9 @@ HashTable не позволяет иметь null ключи или значен
 У HashMap есть подкласс LinkedHashMap, который добавляет возможности по итерации. Если вам нужна эта функциональность, то можно легко переключаться между классами.
 Общее замечание — не рекомендуется использовать HashTable даже в многопоточных приложениях. Для этого есть ConcurrentHashMap.
 
+***
 http://stackoverflow.com/questions/40471/differences-between-hashmap-and-hashtable
+***
 
 ### 18. Что будет, если в Map положить два значения с одинаковым ключом?
 
@@ -307,7 +311,7 @@ public interface Iterator <E>{
 
 Некоторые из методов
 
-![функциональность-collection](https://partizanzero.github.io/images/methods.png)
+![функциональность-collection][https://partizanzero.github.io/images/methods.png]
 
 ### 22. Как получить не модифицируемую коллекцию?
 
@@ -449,6 +453,8 @@ http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-
 ***
 
 [Источник][источник]
+[Вопросы по всем темам][вопросы-по-всем-темам]
+
 
 [источник]: http://javastudy.ru/interview/collections/
 [вопросы-по-всем-темам]: http://javastudy.ru/interview/list-of-question-java-interview/
