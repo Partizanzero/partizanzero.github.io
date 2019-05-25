@@ -116,9 +116,9 @@ author: javastudy.ru
 
 **Реализации: java.util.ArrayDeque<E>, java.util.LinkedList<E>.**
 
-***
-Подробнее: http://www.seostella.com/ru/article/2012/08/09/kollekcii-collections-v-java-queue.html
-***
+---
+* Подробнее: http://www.seostella.com/ru/article/2012/08/09/kollekcii-collections-v-java-queue.html
+---
 
 ### 8. Что вы знаете о коллекциях типа Map, в чем их принципиальное отличие?
 
