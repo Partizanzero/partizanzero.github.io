@@ -441,7 +441,6 @@ for(тип итер_пер : коллекция) блок_операторов
 * http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-collection-framework-chast-1 Вопросы и ответы на собеседовании по теме Java Collection Framework. Часть 1.
 * http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-collection-framework-chast-2 Вопросы и ответы на собеседовании по теме Java Collection Framework. Часть 2.
 * http://www.parshinpn.pro/content/voprosy-i-otvety-na-sobesedovanii-po-teme-java-collection-framework-chast-3 Вопросы и ответы на собеседовании по теме Java Collection Framework. Часть 3.
----
 
 [Источник][источник]
 
