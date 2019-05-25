@@ -279,7 +279,6 @@ boolean equals(Object obj) — сравнивает данный объект с
             }
         });
     }
-</code></pre>
 ```
 
 ### 20. Дайте определение понятию “итератор”.
@@ -288,15 +287,12 @@ boolean equals(Object obj) — сравнивает данный объект с
 
 Интерфейс Iterator имеет следующее определение:
 
-```html
-<pre><code>
-
+```java
 public interface Iterator <E>{
     E next();
     boolean hasNext();
     void remove();
 }
-</code></pre>
 ```
 
 ### 21. Какую функциональность представляет класс Collections
@@ -308,8 +304,7 @@ public interface Iterator <E>{
 ### 22. Как получить не модифицируемую коллекцию?
 
 Коллекцию, доступную только для чтения можно получить с помощью методов:
-```html
-<pre><code>
+```java
 public static <T> SortedSet<T> unmodifiableSortedSet(SortedSet<T> s) {
         return new UnmodifiableSortedSet<>(s);
     }
@@ -321,7 +316,6 @@ public static <T> List<T> unmodifiableList(List<? extends T> list) {
             new UnmodifiableList<>(list));
 }
 и т.д. для каждого типа (Map, SortedMap и т.п.)
-</code></pre>
 ```
 
 ### 23. Какие коллекции синхронизированы?
@@ -336,14 +330,13 @@ Collections.synchronizedList(list);
 Collections.synchronizedSet(set);
 Collections.synchronizedMap(map);
 Все они принимают коллекцию в качестве параметра, и возвращают потокобезопасную коллекцию с теми же элементами внутри.
-```html
-<pre><code>
+
+```java
 public static <T> Set<T> synchronizedSet(Set<T> s) {
         return new SynchronizedSet<>(s);
     }
  
 и т.д. для каждого типа коллекции
-</code></pre>
 ```
 
 ### 25. Как получить коллекцию только для чтения?
@@ -369,10 +362,8 @@ Iterator: hasNext(), next(), remove()
 ### 28. Как реализован цикл foreach?
 
 Реализован на основе Iterator.
-```html
-<pre><code>
+```java
 for(тип итер_пер : коллекция) блок_операторов
-</code></pre>}
 ```
 
 ### 29. Почему нет метода iterator.add() чтобы добавить элементы в коллекцию?
