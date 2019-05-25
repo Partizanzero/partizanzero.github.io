@@ -254,7 +254,6 @@ boolean equals(Object obj) — сравнивает данный объект с
 
 ```html
 <pre><code>
-
  public static void main(String[] args) {
         Comparator comparator = new Comparator<String>() {
             @Override
@@ -290,6 +289,7 @@ boolean equals(Object obj) — сравнивает данный объект с
 
 Интерфейс Iterator имеет следующее определение:
 
+```html
 <pre><code>
 
 public interface Iterator <E>{
@@ -298,6 +298,7 @@ public interface Iterator <E>{
     void remove();
 }
 </code></pre>
+```
 
 ### 21. Какую функциональность представляет класс Collections
 
