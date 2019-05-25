@@ -135,7 +135,7 @@ java.util.SortedMap<K,V> наследует java.util.Map<K,V>. Реализац
 
 ### 9. Назовите основные реализации List, Set, Map.
 
-![реализации List, Set, Map](https://partizanzero.github.io/images/implementation_list_set_map.png)
+![реализации List, Set, Map](https://github.com/Partizanzero/partizanzero.github.io/blob/master/images/implementation_list_set_map.png)
 
 ### 10. Какие реализации SortedSet вы знаете и в чем их особенность?
 
@@ -151,11 +151,11 @@ java.util.SortedSet<E> наследует java.util.Set<E>. Реализации
 
 ArrayList реализован внутри в виде обычного массива. Поэтому при вставке элемента в середину, приходится сначала сдвигать на один все элементы после него, а уже затем в освободившееся место вставлять новый элемент. Зато в нем быстро реализованы взятие и изменение элемента – операции get, set, так как в них мы просто обращаемся к соответствующему элементу массива.
 
-![реализации List, Set, Map](https://partizanzero.github.io/images/ArrayListAndLinkedList.gif)
+![реализации List, Set, Map](https://github.com/Partizanzero/partizanzero.github.io/blob/master/images/ArrayListAndLinkedList.gif)
 
 LinkedList реализован внутри по-другому. Он реализован в виде связного списка: набора отдельных элементов, каждый из которых хранит ссылку на следующий и предыдущий элементы. Чтобы вставить элемент в середину такого списка, достаточно поменять ссылки его будущих соседей. А вот чтобы получить элемент с номером 130, нужно пройтись последовательно по всем объектам от 0 до 130. Другими словами операции set и get тут реализованы очень медленно. Посмотри на таблицу:
 
-![LinkedList](https://partizanzero.github.io/images/linked_list.png)
+![LinkedList](https://github.com/Partizanzero/partizanzero.github.io/blob/master/images/linked_list.png)
 
 Если необходимо вставлять (или удалять) в середину коллекции много элементов, то лучше использовать LinkedList. Во всех остальных случаях – ArrayList.
 
@@ -312,7 +312,7 @@ public interface Iterator <E>{
 
 Некоторые из методов
 
-![функциональность-collection](https://partizanzero.github.io/images/methods.png)
+![функциональность-collection](https://github.com/Partizanzero/partizanzero.github.io/blob/master/images/methods.png)
 
 ### 22. Как получить не модифицируемую коллекцию?
 
