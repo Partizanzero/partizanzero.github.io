@@ -5,7 +5,6 @@ date: 2019-05-25 15:57:16 +0400
 author: javastudy.ru
 categories: Java
 ---
-
 ![структуры данных](https://partizanzero.github.io/images/img_1_1.jpg)
 
 Список вопросов и ответов по теме “Коллекции в Java”, используемых на собеседовании.
