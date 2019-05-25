@@ -79,9 +79,9 @@ author: javastudy.ru
 
 С Java 1.6 классы TreeSet и TreeMap имплементируют интерфейсы NavigableSet и NavigableMap, которые расширяют интерфейсы SortedSet и SortedMap соответственно (SortedSet и SortedMap расширяют Set и Map).
 
-***
+---
 Подробная статья про коллекции с описанием основных методов: http://www.quizful.net/post/Java-Collections
-***
+---
 
 ### 5. Что вы знаете о коллекциях типа List?
 
