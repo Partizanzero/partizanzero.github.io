@@ -1,6 +1,6 @@
 ---
 layout: post  
-title:  "Java — коллекции (Collections). Вопросы и ответы."
+title:  "Java — коллекции (Collections)."
 date: 2019-05-25 15:57:16 +0400
 author: javastudy.ru
 ---
