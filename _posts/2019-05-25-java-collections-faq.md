@@ -304,6 +304,7 @@ public interface Iterator <E>{
 ### 22. Как получить не модифицируемую коллекцию?
 
 Коллекцию, доступную только для чтения можно получить с помощью методов:
+
 ```java
 public static <T> SortedSet<T> unmodifiableSortedSet(SortedSet<T> s) {
         return new UnmodifiableSortedSet<>(s);
@@ -362,6 +363,7 @@ Iterator: hasNext(), next(), remove()
 ### 28. Как реализован цикл foreach?
 
 Реализован на основе Iterator.
+
 ```java
 for(тип итер_пер : коллекция) блок_операторов
 ```
