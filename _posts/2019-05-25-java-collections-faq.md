@@ -317,6 +317,7 @@ public static <T> SortedSet<T> unmodifiableSortedSet(SortedSet<T> s) {
  
 public static <T> List<T> unmodifiableList(List<? extends T> list) {
     return (list instanceof RandomAccess ?
+	
             new UnmodifiableRandomAccessList<>(list) :
             new UnmodifiableList<>(list));
 }
@@ -444,7 +445,6 @@ for(тип итер_пер : коллекция) блок_операторов
 [Источник][источник]
 
 [Вопросы по всем темам][вопросы-по-всем-темам]
-
 
 [источник]: http://javastudy.ru/interview/collections/
 [вопросы-по-всем-темам]: http://javastudy.ru/interview/list-of-question-java-interview/
