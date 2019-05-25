@@ -81,6 +81,7 @@ author: javastudy.ru
 
 ---
 > Подробная статья про коллекции с описанием основных методов: http://www.quizful.net/post/Java-Collections
+
 ---
 
 ### 5. Что вы знаете о коллекциях типа List?
