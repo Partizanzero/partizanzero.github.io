@@ -169,6 +169,7 @@ LinkedList требует больше памяти для хранения та
 
 ***
 [Структуры данных в картинках. ArrayList:](http://habrahabr.ru/post/128269/)
+
 [Еще о ArrayList на сайте: developer.alexanderklimov.ru](http://developer.alexanderklimov.ru/android/java/arraylist.php)
 
 ### 14. Чем отличается ArrayList от Vector?
