@@ -312,7 +312,7 @@ public interface Iterator <E>{
 
 Некоторые из методов
 
-![функциональность-collection][https://partizanzero.github.io/images/methods.png]
+![функциональность-collection](https://partizanzero.github.io/images/methods.png)
 
 ### 22. Как получить не модифицируемую коллекцию?
 
