@@ -6,4 +6,5 @@ categories: lol
 ---
 
 Баян, баян, баянище..., но какой, с..ка актуальный.
+
 ![Пиши код](https://partizanzero.github.io/images/love.jpg) 
