@@ -38,6 +38,8 @@ nav:
     url:   "/partizanzero.github.io/" 
   - title: "About"
     url:   "https://partizanzero.github.io/about"
+  - title: "Cube"
+    url:   "https://partizanzero.github.io/cube"
   - title: "?"
     url:   "https://partizanzero.github.io/no"
 
