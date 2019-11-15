@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Pishi"
-date:   2019-25-10 21:00:16
+title: "Pishi"
+date: 2019-25-10 21:00:16 +0400
 categories: lol
 ---
 
