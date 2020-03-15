@@ -4,7 +4,7 @@ title:  "Основные типы исключений (Exception) в Java"
 categories: Java
 ---
 
-![Exception Java](https://partizanzero.github.io/images/exception.png)
+![Exception Java](https://partizanzero.github.io/images/img_11.jpg)
 
 Наиболее часто встречающихся исключения (исключительные ситуации, ошибки)с расшифровкой их значения.
 
