@@ -1,4 +1,4 @@
-# Site title
+#Site title
 title: Т е р н а р н ы й_О п е р а т о р
 
 # Tagline below the site title on post list pages
@@ -38,6 +38,8 @@ nav:
     url:   "/partizanzero.github.io/" 
   - title: "About"
     url:   "https://partizanzero.github.io/about"
+  - title: "Cube"
+    url:   "https://partizanzero.github.io/cube"
   - title: "?"
     url:   "https://partizanzero.github.io/no"
 
