@@ -37,7 +37,7 @@ layout: default
 
   <div class="share">
     <span class="share-title">Share this on:</span>
-    {% assign url = page.url  prepend: site.url %}
+    {% assign url = page.url | prepend: site.url %}
     <ul class="x-separated-list">
       <li>
         <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&amp;url={{ url }}"
