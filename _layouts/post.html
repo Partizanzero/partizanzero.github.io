@@ -37,7 +37,7 @@ layout: default
 
   <div class="share">
     <span class="share-title">Share this on:</span>
-    {% assign url = page.url | prepend: site.baseurl | prepend: site.url %}
+    {% assign url = page.url  prepend: site.url %}
     <ul class="x-separated-list">
       <li>
         <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&amp;url={{ url }}"
@@ -80,13 +80,13 @@ layout: default
 
 <nav class="read-next">
   {% if page.next %}
-    <a class="read-next-newer" href="{{ page.next.url | prepend: site.baseurl }}">
+    <a class="read-next-newer" href="{{ page.next.url }}">
       <span class="read-next-label">Newer Post</span>
       <span class="read-next-title">{{ page.next.title | xml_escape }}</span>
     </a>
   {% endif %}
   {% if page.previous %}
-    <a class="read-next-older" href="{{ page.previous.url | prepend: site.baseurl }}">
+    <a class="read-next-older" href="{{ page.previous.url }}">
       <span class="read-next-label">Older Post</span>
       <span class="read-next-title">{{ page.previous.title | xml_escape }}</span>
     </a>
