@@ -48,7 +48,7 @@
     <meta property="og:image" content="{{ image }}" />
   {% endif %}
 
-  {% assign url = page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url %}
+  {% assign url = page.url | replace: 'index.html', '' | prepend: site.url %}
   <meta property="og:url" content="{{ url }}" />
 
   {% if page.date %}
@@ -73,7 +73,7 @@
 
   <link rel="canonical" href="{{ url }}">
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" }}">
 
   {% if site.google_analytics_tracking_id %}
     <script>
