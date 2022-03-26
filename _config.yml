@@ -52,7 +52,7 @@ nav:
 
 footer_links:
   - title: "RSS"
-    url:   "/partizanzero/feed.xml"
+    url:   "/feed.xml"
   - title: "GitHub"
     url:   "https://partizanzero.github.io"
 # Author information
